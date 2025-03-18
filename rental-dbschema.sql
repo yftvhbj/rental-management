@@ -9,7 +9,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Properties table (Apartments, rooms, offices, etc.)
+--  Properties table (Apartments, rooms, offices, etc.)
 CREATE TABLE properties (
     property_id INT AUTO_INCREMENT PRIMARY KEY,
     landlord_id INT NOT NULL,
